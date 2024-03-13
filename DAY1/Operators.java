@@ -30,19 +30,23 @@ class Operators
 
         // Increment
         num1++;                             //post increment
-        System.out.println(num1); 
+        int post_increment = num1;
+        System.out.println(post_increment); 
 
         ++num1;                             //pre increment
-        System.out.println(num1);
+        int pre_increment = num1;
+        System.out.println(pre_increment);
 
 
         // Decrement
 
         num2--;                             //post decrement
-        System.out.println(num2);
+        int post_decrement = num2;
+        System.out.println(post_decrement);
 
         --num2;                             //pre decrement
-        System.out.println(num2);
+        int pre_decrement = num2;
+        System.out.println(pre_decrement);
        
     }
 
