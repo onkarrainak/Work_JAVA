@@ -23,6 +23,10 @@ class swap
 
         System.out.println("Numbers after swap"+ " A = " + a + " B = " + b);
 
+        b = 1 % 10;
+        
+        System.out.println(b);
+
     }
 
 }
