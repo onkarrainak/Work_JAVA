@@ -1,9 +1,14 @@
 // 10.	Java Program to Make a Simple Calculator Using switch...case
+
+import java.util.Scanner;
+
 public class que8 {
     
     public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
         
-        int num = 4;
+        int num = s.nextInt();
+        
 
         int i = 75;
         int j = 25;
