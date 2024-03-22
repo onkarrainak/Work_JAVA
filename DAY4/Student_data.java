@@ -1,3 +1,9 @@
+/* Write a Java program to create Student class with member variable as id, name, mark and result. 
+Use method to initialize the value of name, id and marks. Write a member function to find the result 
+and display the student details with result. */
+
+
+
 import java.util.Scanner;
 
 
