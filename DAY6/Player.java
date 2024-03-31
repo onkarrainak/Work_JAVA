@@ -1,5 +1,3 @@
-package com.learn;
-
 public class Player 
 {
 	String name; 
