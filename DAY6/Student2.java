@@ -34,6 +34,8 @@ public static void main(String[] args)
 	s2.dispStudent();
 	Student2 s3 = new Student2(1003,"SIJU");
 	s3.dispStudent();
+	Student2 s4 = new Student2(1004,"onkar");
+	s4.dispStudent();
 	
 }
     
