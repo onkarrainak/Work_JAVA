@@ -65,10 +65,7 @@ public class Product {
 		    p[i].findDiscound();
 			System.out.println();
 			
-		}
-
-
-        
+		}        
     }
 
     int pid;

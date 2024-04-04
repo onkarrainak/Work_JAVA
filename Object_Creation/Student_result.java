@@ -68,6 +68,3 @@ public class Student_result
 
 }
 
-
-
-// , English, marathi, maths, Science, Social_Science
