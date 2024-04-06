@@ -3,12 +3,12 @@ package Person;
 public class Teacher extends Person
 {
 
-    double salary;
+    String  Subject;
 
-    Teacher(int id,String name,String address,double salary)
+    Teacher(int id,String name,String address,String Subject)
     {
         super(id, name, address);
-        this.salary = salary;
+        this.Subject = Subject;
 
     }
 
@@ -16,7 +16,7 @@ public class Teacher extends Person
     {
         System.out.println("******* Teacher Details*******");
         super.PersonDetails();
-        System.out.println(" "+ salary + "\n");
+        System.out.println(" "+ Subject + "\n");
     }
 
 }
