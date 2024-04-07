@@ -2,7 +2,6 @@ package Bank;
 
 import java.util.Scanner;
 
-import javafx.scene.chart.StackedAreaChart;
 
 public class TestBankaccount {
     

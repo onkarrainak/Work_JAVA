@@ -26,6 +26,13 @@ class B extends A {
     
 }
 
+class InnerSingle {
+     int num;
+     int age;
+
+    
+}
+
 
 
 
