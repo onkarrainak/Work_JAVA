@@ -1,14 +1,15 @@
-package Employee;
+package Employee1;
 
 import java.util.Scanner;
 
-
 public class EmployeeCRUD 
 {
+    Employee[] e ;
 
-    public static Employee[] createArrayOfEmployee()
+
+    public void createArrayOfEmployee()
     {
-        Employee[] e = new Employee[2];
+        e = new Employee[2];
         Scanner s = new Scanner(System.in);
         
         for (int i = 0; i<e.length;i++)
@@ -20,12 +21,10 @@ public class EmployeeCRUD
 
             e[i] = new Employee(empno, name, sla, desig);
         }
-        
-        return e;
 
     }
 
-    public static void displayEmployee(Employee[] e)
+    public void displayEmployee()
     {
         for (int i = 0; i < e.length; i++) {
             if (e[i] != null){
@@ -35,7 +34,7 @@ public class EmployeeCRUD
         }
     }
 
-    public static void updateEmployee(Employee[] e)
+    public void updateEmployee()
     {
         System.out.println("Enter the Empployee No to update salary ");
         Scanner s = new Scanner(System.in);
@@ -49,7 +48,7 @@ public class EmployeeCRUD
         }
     }
 
-    public static void deleteEmployee(Employee[] e) 
+    public void deleteEmployee() 
     {
 
 	 System.out.println("enter the empno to DELETE");
@@ -65,7 +64,5 @@ public class EmployeeCRUD
 			}
 				
 		}
-    }   
-
-
+    }
 }
