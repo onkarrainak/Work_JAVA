@@ -1,8 +1,8 @@
-// 10.	Java Program to Make a Simple Calculator Using switch...case
+// 10.	Java Program to Make a Simple_Calculator_Using_switch...case
 
 import java.util.Scanner;
 
-public class que8 {
+public class Simple_Calculator_Using_switch {
     
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

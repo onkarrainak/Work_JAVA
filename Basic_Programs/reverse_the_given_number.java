@@ -1,5 +1,5 @@
-// 3.	Write a java program to reverse the given number.
-public class que2 {
+// 3.	Write a java program to reverse_the_given_number.
+public class reverse_the_given_number {
     
 public static void main(String[] args) {
     int num = 1234;

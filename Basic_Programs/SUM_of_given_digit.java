@@ -1,5 +1,5 @@
 // Write a program to find SUM of a given digit.
-public class Que1 {
+public class SUM_of_given_digit {
 
     public static void main(String args[]){
         int digit = 123;

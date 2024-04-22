@@ -1,6 +1,6 @@
-// 8.	Write a java program  to  print Table of given  Number
+// 8.	Write a java program  to  print Table_of_given_Number
 
-public class que7 {
+public class Table_of_given_Number {
 
     public static void main(String[] args) {
         int num = 10;
