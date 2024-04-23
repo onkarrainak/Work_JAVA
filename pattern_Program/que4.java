@@ -12,9 +12,5 @@ public class que4 {
             }
             System.out.println();
         }
-
-
-         
     }
-
 }

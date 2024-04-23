@@ -6,6 +6,11 @@ public class Simple_Calculator_Using_switch {
     
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        System.out.println("Enter 1 for Addition");
+        System.out.println("Enter 2 for Subtraction");
+        System.out.println("Enter 3 for Multiplication");
+        System.out.println("Enter 4 for Division");
+
         
         int num = s.nextInt();
         
@@ -13,11 +18,7 @@ public class Simple_Calculator_Using_switch {
         int i = 75;
         int j = 25;
 
-        System.out.println("Enter 1 for Addition");
-        System.out.println("Enter 2 for Subtraction");
-        System.out.println("Enter 3 for Multiplication");
-        System.out.println("Enter 4 for Division");
-
+        
         switch (num) {
             case 1:
                 int add = i+j;

@@ -1,19 +1,31 @@
 import java.util.Scanner;
 
-public class Student_result
+public class Student_results
 {
     public static void main(String[] args) {
     
-        Student_result  stu = new Student_result();
+        Student_results  stu = new Student_results();
         stu.get_data(); 
+        stu.get_marks();
         stu.check_marks();
-        stu.find_percentage();
-        stu.final_result();
+        
 
         
+        if(stu.check_marks() == name)
+        {
+            stu.find_percentage();
+            stu.final_result();
+        }
+        else{
+            System.out.println(" Rewrite the input. ");
+            stu.get_marks();
+            stu.find_percentage();
+            stu.final_result();
+
+        }        
     }
 
-    String name;
+    static String name;
     float total_marks;
     int subject;
     int subject1;
@@ -28,35 +40,31 @@ public class Student_result
     {
         System.out.println("Enter the student data");
         Scanner s = new Scanner(System.in);
-        System.out.println("Enyer the student roll no. ");
+        System.out.println("Enter the student roll no. ");
         roll_no = s.nextInt();
         System.out.println("Enter the student name");
         name = s.next();
         System.out.println("Enter the exam total marks ");
         total_marks = s.nextFloat();
-        System.out.println("Enter the student 3 sub marks ");
-
-
-        subject = s.nextInt();
-        if(!(subject < 0 || subject > 100)) {
-        System.out.println("Incorrect input. ");
-        subject = s.nextInt();
-        }
         
-        subject1 = s.nextInt();
-        if(!(subject1 < 0 || subject1 > 100)) {
-        System.out.println("Incorrect input. ");
-        subject = s.nextInt();
-        }
-
-        subject2 = s.nextInt();
-        if(!(subject2 < 0 || subject2 > 100)) {
-        System.out.println("Incorrect input. ");
-        subject = s.nextInt();
-        }
 
         sum = subject + subject1 + subject2; 
     }
+
+    public void get_marks()
+    {
+        System.out.println("Enter the student 3 sub marks ");
+
+        Scanner s = new Scanner(System.in);
+        subject = s.nextInt();
+        subject1 = s.nextInt();
+        subject2 = s.nextInt();
+        sum = subject + subject1 + subject2; 
+
+    }
+
+
+
 
     public void find_percentage()
     {
@@ -89,13 +97,24 @@ public class Student_result
         }
     }
 
-    public void check_marks()
+    public String check_marks()
     {
         
-        if (subject > 100 && subject < 0) 
+        if((subject < 0 || subject > 100)) 
         {
-            System.out.println("You Enter Wrong input");
+           return "Rewrite the input. ";
         }
+    
+        if((subject1 < 0 || subject1 > 100)) 
+        {
+            return "Rewrite the input. ";
+        }
+        
+        if((subject2 < 0 || subject2 > 100)) 
+        {
+            return "Rewrite the input.";
+        }
+        return name;
     }
 
 
