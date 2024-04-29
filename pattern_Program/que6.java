@@ -1,7 +1,9 @@
 // Java Program to Print Pyramid Number Pattern
 public class que6 {
+    private static final int num = 0;
+
     public static void main(String[] args) {
-        int num =5;
+        // int num;
         int i,j;
 
         for(i=0;i<num;i++){

@@ -23,8 +23,6 @@ public class Student {
         
         s2.displayStudent();
         System.out.println(s1.hashCode());
-
-
         
     }
 
