@@ -18,11 +18,11 @@ public class Student {
         s2.readStudent();
        
         s1.displayStudent();
-        System.out.println(s1.hashCode());
+        System.out.println("hashCode " + s1.hashCode());
 
         
         s2.displayStudent();
-        System.out.println(s1.hashCode());
+        System.out.println("hashCode " + s1.hashCode());
         
     }
 
@@ -44,10 +44,11 @@ public class Student {
     
     public void displayStudent()
     {
-        System.out.println("\n****************************");
+        System.out.println("****************************");
         System.out.println(sid);
         System.out.println(name);
         System.out.println(mark);
+        System.out.println("****************************");
 
     }
     

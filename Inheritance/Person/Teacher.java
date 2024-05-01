@@ -18,5 +18,6 @@ public class Teacher extends Person
         super.PersonDetails();
         System.out.println(" "+ Subject + "\n");
     }
+    
 
 }

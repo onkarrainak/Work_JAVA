@@ -13,6 +13,10 @@ public class BankAccount {
         this.totalbalance = totalbalance;
     }
 
+    public BankAccount(String accountNumber, double initialBalance, String ownerName) {
+        //TODO Auto-generated constructor stub
+    }
+
     void displaydetails()
     {
         System.out.println("Accountno.="+ accountno);
@@ -94,6 +98,11 @@ public class BankAccount {
                 System.out.println("wrong choice");
                 break;
         }
+    }
+
+    public String getBalance() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getBalance'");
     }
 
 
